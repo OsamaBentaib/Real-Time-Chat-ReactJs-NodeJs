@@ -1,0 +1,49 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Program Files (x86)\Yarn\bin\yarn.js install
+
+PATH: 
+  C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\nodejs\;C:\Program Files (x86)\Yarn\bin\;C:\Program Files\dotnet\;C:\ProgramData\chocolatey\bin;C:\Program Files\Microsoft VS Code\bin;C:\Program Files\Git\cmd;C:\Users\My Pc\AppData\Local\Programs\Python\Python38-32\Scripts\;C:\Users\My Pc\AppData\Local\Programs\Python\Python38-32\;C:\Users\My Pc\.windows-build-tools\python27\;C:\Users\My Pc\AppData\Local\Microsoft\WindowsApps;C:\Users\My Pc\AppData\Roaming\npm;C:\Program Files\nodejs;C:\Program Files (x86)\Dev-Cpp\MinGW64\bin;C:\Program Files\JetBrains\PyCharm Community Edition 2019.3.3\bin;C:\Users\My Pc\AppData\Local\Yarn\bin;C:\Users\My Pc\.dotnet\tools;C:\Program Files\heroku\bin;C:\Users\My Pc\AppData\Roaming\Pub\Cache\bin;C:\flutter\bin;
+
+Yarn version: 
+  1.22.4
+
+Node version: 
+  12.16.1
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: EPERM: operation not permitted, unlink 'C:\Users\My Pc\AppData\Local\Yarn\Cache\v6\npm-moment-2.29.0-fcbef955844d91deb55438613ddcec56e86a3425-integrity\node_modules\moment\.yarn-tarball.tgz'
+
+npm manifest: 
+  {
+    "name": "chat",
+    "version": "1.0.0",
+    "description": "",
+    "main": "server.js",
+    "dependencies": {
+      "apollo-server": "^2.16.1",
+      "bcryptjs": "^2.4.3",
+      "graphql": "^15.3.0",
+      "jsonwebtoken": "^8.5.1",
+      "mysql2": "^2.1.0",
+      "sequelize": "^6.3.4"
+    },
+    "devDependencies": {
+      "nodemon": "^2.0.4"
+    },
+    "scripts": {
+      "dev": "nodemon server.js --ignore client/",
+      "start": "node server.js"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
