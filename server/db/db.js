@@ -1,1 +1,1 @@
-module.exports = `mongodb+srv://is_osama_bentaib_mongodb:QDN7MK4QHpSUtd7K@cluster0.ctfnj.mongodb.net/react-node-chat-app?retryWrites=true&w=majority`;
+module.exports = `<DB Connection>`;
